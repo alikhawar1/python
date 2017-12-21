@@ -1,0 +1,11 @@
+val = input()
+dim=[int(x) for x in val.split(',')]
+row=dim[0]
+col=dim[1]
+
+for rowr in range(row):
+    for colr in range(col):
+        multilist[rowr][colr]= rowr*colr
+
+print (multilist)
+

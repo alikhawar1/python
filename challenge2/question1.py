@@ -1,4 +1,12 @@
+import sys
 import math
-print( "enter number")
-num= float (input())
-print(math.sqrt(num))
+while True:
+    try:
+        print( "enter number")
+        num= float (input())
+        print(math.sqrt(num))
+
+        break
+    except ValueError:
+        print ("enter a valid value")
+
