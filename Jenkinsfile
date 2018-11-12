@@ -1,4 +1,3 @@
-    agent any 
     stages {
        stage('webnms-sonar') { 
          steps {
